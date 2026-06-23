@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": 1778942059108,
+      "firstName": "mert",
+      "lastName": "bayram",
+      "username": "muscleman",
+      "email": "mert@gmail.com",
+      "password": "$2a$10$FDFy84sHFhyFj9ecR4iT6uv5DDxNEA771WbGIQ2oLnFuBmdPKwj6m",
+      "role": "user",
+      "total_score": 0,
+      "created_at": "2026-05-16T14:34:19.108Z"
+    },
+    {
+      "id": 1779009207802,
+      "firstName": "ataberk",
+      "lastName": "kosger",
+      "username": "ataberkkosger",
+      "email": "ata@berk.com",
+      "password": "$2a$10$MLChFfmCjBNKjI1sorBTXuGCx5vQTFwmaM7XQ6rUNgcWp5AZnsMPG",
+      "role": "user",
+      "total_score": 0,
+      "created_at": "2026-05-17T09:13:27.802Z"
+    },
+    {
+      "id": 1779030290368,
+      "firstName": "Arda",
+      "lastName": "Güneş",
+      "username": "smardas",
+      "email": "ardagunes1881@gmail.com",
+      "password": "$2a$10$j987ssFBKBtwZ9F5ToahVe3MBoS9Z1odlS46oFBj6uI6Z/.2coACO",
+      "role": "user",
+      "total_score": 0,
+      "created_at": "2026-05-17T15:04:50.368Z"
+    },
+    {
+      "id": 1779030855254,
+      "firstName": "iso",
+      "lastName": "17",
+      "username": "iso17",
+      "email": "iso17@gmail.com",
+      "password": "$2a$10$KM4Wb8VzHvv7RzMtxHBszuF6o5d6s8n1SgY8UCinVAQohqbx4760G",
+      "role": "user",
+      "banned": false,
+      "total_score": 0,
+      "created_at": "2026-05-17T15:14:15.254Z"
+    },
+    {
+      "id": 1779030892954,
+      "firstName": "iso",
+      "lastName": "1734",
+      "username": "iso1734",
+      "email": "iso1734@gmail.com",
+      "password": "$2a$10$vXIVNAiJPft10PGG/Dv.3unHwjSqZv7ngedthCWelJ9XcihFTsSL.",
+      "role": "user",
+      "banned": false,
+      "total_score": 0,
+      "created_at": "2026-05-17T15:14:52.954Z"
+    },
+    {
+      "id": 1779033497854,
+      "firstName": "enes",
+      "lastName": "enes",
+      "username": "enes",
+      "email": "enes@gmail.com",
+      "password": "$2a$10$EKNelEpXim/0WoJa.lpHHOdBgsVNUcppd/6UHpbXOt4nj6TwIhmLu",
+      "role": "user",
+      "banned": false,
+      "total_score": 0,
+      "created_at": "2026-05-17T15:58:17.854Z"
+    },
+    {
+      "id": 1779910639809,
+      "firstName": "akif",
+      "lastName": "emirhan",
+      "username": "ako",
+      "email": "ako@gmail.com",
+      "password": "$2a$10$oGoRACO8m0S0pIJmiXx0XOdzXnDadS4/FjUCkN7xgDIyB4XQfq6vO",
+      "role": "user",
+      "banned": false,
+      "total_score": 0,
+      "created_at": "2026-05-27T19:37:19.809Z"
+    },
+    {
+      "id": 1782248933177,
+      "firstName": "asd",
+      "lastName": "asd",
+      "username": "asd",
+      "email": "asd@gmail.com",
+      "password": "$2a$10$36BDREppVqiYjja/gFnNQO2lb8rJN.jLESjDZ670ABCad4ZSCfqQS",
+      "role": "user",
+      "banned": false,
+      "total_score": 0,
+      "created_at": "2026-06-23T21:08:53.177Z"
+    }
+  ]
+}
