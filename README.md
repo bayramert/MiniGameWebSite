@@ -4,7 +4,7 @@ Bu proje, Node.js kullanılarak geliştirilmiş interaktif bir mini oyun platfor
 
 ## 📂 Proje Yapısı
 
-\`\`\`text
+```text
 PROJE_KLASORU/
 │
 ├── Database/          # Kullanıcı, skor ve oyun verilerinin saklandığı yerel veritabanı dizini
@@ -14,22 +14,37 @@ PROJE_KLASORU/
 ├── server.js          # Projenin ana Node.js sunucu dosyası
 ├── package.json       # Proje bağımlılıkları, scriptler ve meta veriler
 └── package-lock.json  # Kurulan paketlerin kilitli ve birebir sürüm detayları
-\`\`\`
+```
 
 ## 🛠️ Gereksinimler ve Kurulum
 
-Projeyi yerel bilgisayarınızda çalıştırmak için sisteminizde **Node.js** yüklü olmalıdır.
+Projeyi yerel bilgisayarınızda kurmak ve çalıştırmak için aşağıdaki adımları sırasıyla takip edin:
 
-1. Bu depoyu bilgisayarınıza klonlayın veya ZIP olarak indirin.
-2. Terminalinizi (veya Git Bash) projenin ana dizininde açın.
-3. Gerekli tüm paketleri kurmak için şu komutu çalıştırın:
- 
-   npm install
- 
+### 1. Node.js Kurulumu
+Bilgisayarınızda Node.js kurulu değilse, terminali (PowerShell) açarak tarayıcıya gerek kalmadan şu komutla doğrudan yükleyebilirsiniz:
+
+winget install OpenJS.NodeJS.LTS
+
+*(Not: Kurulum bittikten sonra terminali kapatıp projenizin dizininde yeniden açmanız gerekir.)*
+
+### 2. Proje Dosyalarını Hazırlama
+Bu depoyu bilgisayarınıza klonlayın veya ZIP olarak indirip çıkartın. Ardından terminalinizi projenin ana dizininde açın.
+
+### 3. PowerShell İzinlerinin Ayarlanması (Olası Hatalar İçin)
+Eğer bir sonraki adımda `npm` komutlarını çalıştırırken script engelleme (UnauthorizedAccess) hatası alırsanız, sistemin bu script'i çalıştırmasına izin vermek için şu komutu uygulayın:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
+### 4. Bağımlılıkların Yüklenmesi
+Projenin ihtiyaç duyduğu tüm paketleri ve modülleri yüklemek için proje klasörünün içindeyken şu komutu çalıştırın:
+
+npm install
+
 
 ## 🚀 Sunucuyu Başlatma
 
-Kurulum tamamlandıktan sonra yerel sunucuyu ayağa kaldırmak ve projeyi çalıştırmak için terminalde şu komutu yürütmeniz yeterlidir:
+Kurulumlar tamamlandıktan sonra yerel sunucuyu (server) ayağa kaldırmak ve projeyi çalıştırmak için terminalde şu komutu yürütmeniz yeterlidir:
 
 
 node server.js
